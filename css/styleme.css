@@ -1,0 +1,21 @@
+body{
+    background-color: bisque;
+}
+h1{
+    color: brown;
+    text-align: left;
+}
+p{
+    color: darkgoldenrod;
+}
+li{
+    font-family: Verdana;
+}
+.mood{
+    width: 200px;
+    height: 100px;
+}
+.checkers{
+    width: 88px;
+    height: 31px;
+}

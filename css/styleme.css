@@ -8,6 +8,9 @@ h1{
 p{
     color: darkgoldenrod;
 }
+p::first-letter{
+    font-size: 24px;
+}
 li{
     font-family: Verdana;
 }
@@ -18,4 +21,18 @@ li{
 .checkers{
     width: 88px;
     height: 31px;
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+ol ul li {
+    background-color: beige;
+    list-style-type: none;
+    padding: 3px;
+}
+ol ul li b{
+    font-size: 20px;
 }

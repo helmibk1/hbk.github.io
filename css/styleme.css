@@ -1,7 +1,7 @@
 body{
     background-color: bisque;
 }
-header{
+.table-header{
     height: 100px;
     border: 5px solid rgb(69, 47, 1);
     border-bottom: 0;
@@ -97,4 +97,49 @@ ol ul li b{
 .place-order-button{
     margin-left: 90%;
     margin-bottom: 2%;
+}
+.title{
+    margin: 0px;
+    padding: 5px;
+}
+
+
+
+.forms-main-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+    border: 1px  solid black  ;
+}
+.forms-header , .forms-footer{
+    width: 80%;
+    margin: auto;
+    border: 1px  solid black  ;
+}
+.forms-header{
+    background-color: rgb(189, 248, 161);
+}
+.forms-footer{
+    background-color: rgb(203, 203, 202);
+}
+.label  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    width: 400px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+input , .form-align{
+    flex: 0 0 200px;
+    margin-left: 10px;
+}
+.footer-buttons{
+    margin-left: 60%;
+    padding: 10px;
+}
+#adresse-input{
+    height: 100px;
 }
